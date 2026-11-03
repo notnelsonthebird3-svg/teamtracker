@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "teamtracker",
+  "version": "${version}",
+  "name": "Team Tracker",
+  "description": "Add players to a team and get on-screen arrows pointing to them, plus a menu with their coords or direction.",
+  "environment": "client",
+  "entrypoints": { "client": ["com.teamtracker.TeamTrackerClient"] },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
